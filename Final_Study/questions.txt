@@ -1,0 +1,81 @@
+What is an abstract data type?$#data structure accompanied by a set of access functions.$data structure that lacks implementation$An interface$None of the Above
+What are charactersitics of a linear data structure?$many predecessor and successor.$unique predecessor and many successor.$many predecessor and unique successor.$#unique predecessor and successor.
+True or False? Set structures have no predecessors or succesors.$#True$False
+What are charactersitics of a hierarchical data structure?$many predecessor and successor.$#unique predecessor and many successor.$many predecessor and unique successor.$unique predecessor and successor.
+What are charactersitics of a graph data structure?$#many predecessor and successor.$unique predecessor and many successor.$many predecessor and unique successor.$unique predecessor and successor.
+Some examples of modifying operations are?$Search$Minimum$Maximum$#none of the above
+To analyze complexity we count the number of primitive operations?$#True$False
+Asymptotic complexity...?$Measures growth rate as n becomes small$Determines countinouity of a funciton$#Measures growth as n becomes large$none of the above
+With asymptotic complexity we can not simplify t(n)=8n-2 to O(n)=n?$#True$False
+Which is ordered in increasing complexity?$O(2^n), O(n^3), O(n^2), O(n lg n), O(n), O(lgn), O(1)$O(1), O(n), O(nlgn), O(lgn), O(n^2), O(n^3), O(2^n)$O(1), O(lgn), O(n), O(nlgn), O(2^n), O(n^2), O(n^3)$#O(1), O(lgn), O(n), O(nlgn), O(n^2), O(n^3), O(2^n)
+Only O(n) and below algorithms are considered efficent for large inputs?$True$#False
+Big omega specifies...$The upper bound$#The lower bound$The average case$All of the above
+Big theta specifies...$The upper bound$The lower bound$The average case$#All of the above
+If the number of steps is halved on each loop the complexity is O(lgn)$#True$False
+What is data?$#Independant facts, observations or events$collective facts, observations or events$a unique object$None of the above
+A record is data pertaining to many objects?$True$#False
+What is a secondary key?$A filed used first for slecting or sorting records$Second key that can be chosen when there are 2 keys$#A filed used if 2or more records have equal primary keys$All of the above
+What facts are true of sequential searches?$Start at the begining of a list and compare each usccessive item to a key$Works on onlt sorted lists$Faster on smaller lists$#a and c 
+What facts are true of the binary search?$Works on both sorted and unsorted lists$#Divides the list into its left subarray if the key<middle$Divides the list into its right sub array if the key<middle$can only be applied recusively
+Interpolation Search is a variant of hte binary search where the midpoint is set to where it will most likely occur?$#True$False
+In place sorts preserve relative orders while stable sorts exchange items within an array?$True$#False
+How does the bubble sort work?$#compares successve pairs and swaps them if out of order.$Splits into smaller sub arrays and remerges in sorted order$partitions data and sorts based on the partition$None of above
+Selection sort works by selecting the smallest item above the current item and swapping them$#True$False
+Insertion sort works by starting with the second element and comparing it with the first. If les move 1st right and 2nd left. The repeat with each successive position.$#True$False
+A successor operation...$Returns smallest record$Returns the largest record$#given some record returns the next largest record$given some record returns the next smallest record.
+A predecessor operation..$Returns smallest record$Returns the largest record$given some record returns the next largest record$#given some record returns the next smallest record.
+What is satellite data?$data in a kye field used for sorting and selecting.$#data in non key field not used for sorting or selecting.
+What are characteristics of the merge sort?$Partitons the data using a pivot$divides data into equal sub arrays$sorts by recusively remerging sub arrays$#b and c are correct
+What are characteristics of the quick sort?$Partitions data using a pivot$when partitioning, scan inward from edges using 2 pointers. stop the left pointer when reaching an element > pivot. stop right pointer when reaching an element < pivot. exchange the two elements. repeat until the pointer cross$When pivoting use two pointer to scan outward from the middle and stop the left pointer when the en element >pivot and stop right when element<pivot then exchange the two elements.$#a and b are correct
+Lists are linear data structures$#True$False
+Linked lists are also called.$physicalkly ordered listst$#logically ordered lists
+doubly linked lists are linked lists where...?$the last element has a pointer that points to head$the lists has two successsors$#each element has a pointer to both its successor and predecessor$None of the above
+Sparse tables are implemented with a 2D array normally?$#True$False
+Which are elements of stacks?$Last in first out$Only accessed at the top$has an insert a delete operation$#a and b are correct
+Which are elements of queues?$#Are first in first out$can only be accessed that the top$Can be implemented with a regular 1D array$both a and c are correct
+Priority queues are queus stored based on priority where item with lowest priority is always removed first?$True$#False
+Waht is a vertex?$lowest/highest point in  a parbola$node in a linear data strcuture$node in a linked list$#node in a tree data structure
+An edge is the connection between two vertices?$#True$False
+leaf nodes have children?$True$#False
+What is a binary search tree?$Binary tree where each child is less than the parent$Binary tree where each parent is less tha  the child$#Binary tree where left child is less than parent and right is greater$Binary tree where left child is greater than parent and right is less.
+Depth first in order traversal for binary search tree visists nodes in decending order?$True$#False
+depth first pre order traversal processes the node first then the left subtree followed by right.$#True$False
+post order traversal depth first processes the elft subtree then the right then the node?$#True$False
+Breadth first traversal?$#Processes bnodes each level top down.$Processes node each level bottom up$Processes node in order$None
+Blance of a node = hieight right- height left$#True$False
+In an AVL tree?$its an ordered buinary search tree$each node has a balance of -1, 0 or 1$each node has a positive balance$#a and b are correct
+What are charactersitics of graphs?$unique succesor and predecessor$multiple predecessors and successors$can have empty set of vertices$#can have no edges
+in a directed graph edges are only 1 way?$#True$False
+Waht is a parrael edeges?$Mutipl edeges connect to same vertix$Multiple vertices connect from same node to different destinations$#multiple vertices connect same 2 nodes$None of the above
+A pseudograph contains loops?$#True$False
+A simple graph contains no loops or parralel edges?$#True$False
+Path length for weighted graphs?$Sums the number of edges between 2 nodes$Sums the number of node bewteen 2 nodes$#Sums the weights between 2 nodes$None of the above
+A simple path may contain repeated vertices?$True$#False
+Connected graphs have paths to every vertex?$#True$False
+completed graphs...?$each node connects to everyother node$a path can go from each node to every other node$all nodes are connected to another node$#all of the above
+A directed acyclic graph ahs no cycles.$#True$False
+depth first traverasl in a graph works by? $recusively visiting each unvisited vertex ajacent to v before backtracking then traverse any unvisited using the same process $# recursively traverse each unvisited vertex adjacent to v after backtracking then traveres any unvisited vertices using the same process.
+ina  breadth first traversal all unvisited neightbours are visited before moving on?$#True$False
+What is a spanning tree?$A binary tree that contains connections to all vertices$A graph with connections to half the vertices$A graph with no conections between any vertices$#a tree containing all vertices in the graph
+forward edges/tree edges are edges from a directed graph included in a spanning tree? $#True $False
+back edges are edges from a graph not contained in a spanning tree? $#True $False
+What are characteristics of Kruskal's algorithm? $order edges in descending order of cost and add next edge without creating a cycle$#order edges in ascending order and add next edge without creating a cycle$order edges in descending order$order edges in ascending order
+Prims algorithm starts with one tree edge and grows the minimum weight as long as it doesnt creat cycles. $#True $False
+topological order is? $# order so vertex a preceeds vertex b etc $ order so that vertex b preceds a, etc$ random order$ all of the above XD
+What is a sink/minimla vertex?$a vertex with shortest path to it from another vertice$vertex with smallest key value$vertex with the least outgoing edges$#vertex with no outgoing edges
+Hash functions transform a key to an index in the has table.$#True $ False
+Waht is a perfect hash funciton?$a hash function that maps data into hash table with no collisions $ a has funciton tailer made for a data set so no collisions occur $# a hash fucntion where mpas are uniform and random with no collisions $ b and c are correct
+any index is equally likely to be hased to with a simple uniform hash?$#True$False
+Waht is seperate external chaning?$Each spot in the table links to another to avoid clustering$#Each spot in the table references a linked lsit that hold multiple elements
+Waht is bucket addressing?$Each table entry contains an array of values$Each table entry contains a linked list with multiple entries$Each table entry contains a tree with multiple entries$#Each table entru contains a memory space large enough to hold several entries
+What is a aproblem with bucket addressing?$buckets can overflow$They are not very space efficent$They are not very time effiecent$#a and b are correct
+Whatt is open addressing?$Collison avoidance where entries are replaced if a collision occurs$Colision resolution where entries are made into list if collisions occur$#collision resoltuon technique where an element is palced elsewhere in the table if a collison occurs$None of the above
+Linear probing is open addressing where if a collison occurs the n+/- k index is checked repeadly into an open spot where k++ each failed time?$True$#False
+Quadratic probing jumps in sequence h(k)+1, h(k)-1, h(k)+4, h(k)-4, etc when trying to resolve collisons?$#True$False
+What is double hashing?$Using the same address for two hashes$Using a list to resolve collisons$Using probing to solve collions$#Using a second ahs function to resolve collions
+What is coalesced chainging? $combines probing and chaining$when a collison occurs put item in next avialable spot in the linked list$in the last available position in the table or in a cellar if that is avialable$#All of the above
+How is load factor calculated?$# number of records/table size$table size/number of records$table size*record size$table size+record size
+hash efficency is calculated by load factor/average reads? $#true$False
+records in a max heap are ordered from smallest to largest top to bottom?$True$#False
+records in a min heap are ordered from smallest to largest top to bottom? $#True$False
+
